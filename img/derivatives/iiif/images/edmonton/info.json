@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/edmonton",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2835,
+  "height": 3214,
+  "sizes": [
+    {
+      "width": 2835,
+      "height": 3214
+    },
+    {
+      "width": 250,
+      "height": 283
+    },
+    {
+      "width": 1140,
+      "height": 1292
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

@@ -34,6 +34,18 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+   my_coll:
+      layout: 'iiif-image-page'
+      output: true
+      metadata:
+         source: 'my_coll.csv'
+      images:
+         source: 'raw_images/my_coll' 
+webrick:
+   headers:
+      'Access-Control-Allow-Origin': '*'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
