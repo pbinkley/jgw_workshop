@@ -27,3 +27,5 @@ You can find the source code for Jekyll at GitHub:
 <p>Vaccinated: {{ page.vaccinated }}
 
     <p>{{ "hello world" | number_of_words }}
+
+        Last change.
